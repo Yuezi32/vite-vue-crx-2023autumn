@@ -1,0 +1,5 @@
+@forward 'element-plus/theme-chalk/src/mixins/config.scss' with (
+  $namespace: 'CRX-el'
+);
+
+@use "element-plus/theme-chalk/src/index.scss" as *;

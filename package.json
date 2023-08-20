@@ -1,0 +1,26 @@
+{
+  "name": "vite-vue-crx-2023autumn",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite -c vite.popup.config.js",
+    "build": "vite build -c vite.popup.config.js && vite build -c vite.content.config.js && vite build -c vite.background.config.js && node build.js",
+    "preview": "vite preview -c vite.popup.config.js"
+  },
+  "dependencies": {
+    "element-plus": "^2.3.9",
+    "mockjs": "^1.1.0",
+    "mockjs-fetch": "^2.0.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.1",
+    "less": "^4.2.0",
+    "sass": "^1.66.1",
+    "stylus": "^0.59.0",
+    "vite": "^4.4.9"
+  },
+  "packageManager": "yarn@1.22.19"
+}
